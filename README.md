@@ -36,11 +36,11 @@ A simple task management application that allows users to **create**, **fetch**,
 - npm install
 - npm start (Frontend will run on default port : https://localhost:3000)
 ## Api Documentation 
-- GET /api/tasks/{ID}            - ##Fetches task details by ID
-- GET /api/tasks                 - ##fetches all the task details
-- POST /api/tasks                - ##Creates new tasks
-- PUT  /api/tasks/{ID}/status    - ##Updates task details by ID
-- DELETE /api/tasks{ID}          - ##Delete task details by ID.
+- GET /api/tasks/{ID}            - Fetches task details by ID
+- GET /api/tasks                 - fetches all the task details
+- POST /api/tasks                - Creates new tasks
+- PUT  /api/tasks/{ID}/status    - Updates task details by ID
+- DELETE /api/tasks{ID}          - Delete task details by ID.
 
 
 
