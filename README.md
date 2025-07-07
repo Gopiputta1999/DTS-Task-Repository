@@ -1,22 +1,29 @@
-# DTS-Task-Management
-Simple task management application which allows users to fetch, create, update, delete tasks for users.
+# DTS Task Management Application
 
-#Technologies Used
-Backend :
-Java 
-Spring Boot
-MySQL
+A simple task management application that allows users to **create**, **fetch**, **update**, and **delete** tasks with a clean, responsive UI and an animated background for a better user experience.
 
-Frontend :
-ReactJS
-CSS
+---
 
-#Features 
-- Create, Update, delete, fetch tasks.
-- Change task status
-- view task details
-- Animated background for better user-experience
-- Clean, simple, modular codebase for better maintainability.
+## Technologies Used
+
+### Backend
+- **Java**
+- **Spring Boot**
+- **MySQL**
+
+### Frontend
+- **ReactJS**
+- **CSS**
+
+---
+
+## Features
+
+- Create, update, delete, and fetch tasks.
+- Change task status (Pending, In Progress, Completed).
+- View detailed information for each task.
+- Animated background for an enhanced user experience.
+- Clean, modular codebase for easy scalability and maintainability.
 
 ## How to run the project
 ### Backend
@@ -29,14 +36,13 @@ CSS
 - npm install
 - npm start
 Frontend will run on default port : https://localhost:3000
+## Api Documentation 
+- GET /api/tasks/{ID}            - Fetches task details by ID
+- GET /api/tasks                 - fetches all the task details
+- POST /api/tasks                - Creates new tasks
+- PUT  /api/tasks/{ID}/status    - Updates task details by ID
+- DELETE /api/tasks{ID}          - Delete task details by ID.
 
 
-  | Method | Endpoint                 | Description              |
-| ------ | ------------------------ | ------------------------ |
-| GET    | `/api/tasks/{ID}`        | Fetch task details by ID |
-| GET    | `/api/tasks`             | Fetch all tasks          |
-| POST   | `/api/tasks`             | Create a new task        |
-| PUT    | `/api/tasks/{ID}/status` | Update task status by ID |
-| DELETE | `/api/tasks/{ID}`        | Delete task by ID        |
 
 
